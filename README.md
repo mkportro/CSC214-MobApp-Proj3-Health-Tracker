@@ -1,1 +1,80 @@
 # Health-Tracker
+
+Course:				CSC 214 - Mobile App Development
+Instructor:		Arthur Roolfs
+Name:				  MaKayla Robinson
+Email:				mrobin45@u.rochester.edu
+Assignment/Project #:	Project 3
+
+
+I affirm that I have not given or received any unauthorized help for this assignment, and that this work is my own.
+
+
+			Signed:			MaKayla Robinson_________________
+			Date:				08/10/23________
+
+
+Description:
+- Swift app that allows users to add/delete journal entries, set/delete reminders, modify settings.
+- App will ask users to allow notifications upon first use.
+- Journal entry includes fields for: medication, exercise (type, intensity, length), diet, symptoms, and notes. If user tries to add entry without filling out certain fields, an alert will prompt user to ‘go back’ or ‘continue without saving’. Upon saving, animation will show user an image that says “Entry Added!” before returning to Journal Entries page.
+- Reminder entry includes fields for: title, notes, and date. Upon saving, animation will show user an image that says “Reminder Set!” before returning to Reminders page.
+- Settings tab allows users to toggle appearance, font (large or bold), and in list notes. Info view is also located on this page.
+
+
+For P2 and P3 please annotate your app's features and any brownie points features:
+List the following:
+
+Feature: Icon, Colors
+Where to find it (Indicate file or function): Assets folder
+How to enable it?: Enable light/dark mode to see use of 3+ colors (colors used throughout app)
+
+Feature: Launch Screen
+Where to find it (Indicate file or function): LaunchScreen.storyboard
+How to enable it?: N/a
+
+Feature: Animations
+Where to find it (Indicate file or function): 1. AddEntryView 2. AddReminderView 3. SettingsView
+How to enable it?: 1. Will happen automatically when you add an entry (“Entry Added!” image appears on screen)
+2. Will happen automatically when you add a reminder (“Reminder Set!” image appears on screen)
+3. Will happen automatically when you toggle any of the settings (“Changes applied!” text displayed at bottom of screen)
+
+Feature: Localization
+Where to find it (Indicate file or function): Localizable folder
+- English
+- French
+How to enable it?: N/a
+
+Feature: API
+Where to find it (Indicate file or function): Medication folder (altho not functioning properly, so currently not in use)
+How to enable it?: N/a
+
+Feature: SettingsView
+Where to find it (Indicate file or function): SettingsView
+How to enable it?: Tab included in tab bar
+
+Feature: InfoView
+Where to find it (Indicate file or function): InfoView
+How to enable it?: Top right corner on Settings Page
+
+Feature: Alert
+Where to find it (Indicate file or function): AddEntryView
+How to enable it?: Alerts user if all fields aren’t completed; user can bypass by clicking “Continue without saving”
+
+Feature: UNUserNotification
+Where to find it (Indicate file or function): NotificationsMgr
+How to enable it?: Will ask at very beginning of app use if user would like to allow notifications.
+
+Feature: Custom Feature
+Where to find it (Indicate file or function): 1. Journal folder 2. Reminder folder
+How to enable it?: 1. Users can add/view journal entries; log important medical/exercise/diet info 2. Users can set/view reminders
+
+Feature: Portfolio
+Where to find it (Indicate file or function): Final Project Portfolio.pdf (in main project folder)
+How to enable it?: N/a
+
+--
+
+Note to Professor:
+I couldn’t get the API to work, but I left all of my files in there. Code is a bit of a mess because I lost my core data file, but went through and edited it to work without one.
+Lots of commented out code, but did this so I could come back and finish the project for my portfolio for job searching.
