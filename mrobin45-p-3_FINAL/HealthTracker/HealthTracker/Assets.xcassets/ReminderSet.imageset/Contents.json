@@ -1,0 +1,62 @@
+{
+  "images" : [
+    {
+      "filename" : "Reminder Set! (En)-166x166.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Reminder Set! (En)-332x332.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Reminder Set! (En)-500x500.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "Reminder Set! (En)-166x166 1.png",
+      "idiom" : "universal",
+      "locale" : "en",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Reminder Set! (En)-332x332 1.png",
+      "idiom" : "universal",
+      "locale" : "en",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Reminder Set! (En)-500x500 1.png",
+      "idiom" : "universal",
+      "locale" : "en",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "Reminder Set! (Fr)-166x166.png",
+      "idiom" : "universal",
+      "locale" : "fr",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Reminder Set! (Fr)-332x332.png",
+      "idiom" : "universal",
+      "locale" : "fr",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Reminder Set! (Fr)-500x500.png",
+      "idiom" : "universal",
+      "locale" : "fr",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
+  }
+}

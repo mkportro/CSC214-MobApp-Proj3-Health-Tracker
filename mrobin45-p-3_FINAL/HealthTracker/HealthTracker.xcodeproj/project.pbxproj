@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0FA0EB2A7B295900023C1C /* HealthTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0FA0EA2A7B295900023C1C /* HealthTrackerApp.swift */; };
+		CD0FA0ED2A7B295900023C1C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0FA0EC2A7B295900023C1C /* Persistence.swift */; };
+		CD0FA0F22A7B295900023C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0FA0F12A7B295900023C1C /* ContentView.swift */; };
+		CD0FA0F42A7B295A00023C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0FA0F32A7B295A00023C1C /* Assets.xcassets */; };
+		CD0FA0F82A7B295A00023C1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0FA0F72A7B295A00023C1C /* Preview Assets.xcassets */; };
+		CD0FA1002A7C056500023C1C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD0FA1022A7C056500023C1C /* Localizable.strings */; };
+		CD0FA1052A7C0D3C00023C1C /* AddEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0FA1042A7C0D3C00023C1C /* AddEntryView.swift */; };
+		CD0FA1072A7C0D4A00023C1C /* AddMedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0FA1062A7C0D4A00023C1C /* AddMedicationView.swift */; };
+		CD9CAD472A842A2D0063BF71 /* MedicationsMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9CAD462A842A2D0063BF71 /* MedicationsMgr.swift */; };
+		CDF2BB942A7C3FB30056A874 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BB932A7C3FB30056A874 /* SettingsView.swift */; };
+		CDF2BB962A7C472A0056A874 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BB952A7C472A0056A874 /* InfoView.swift */; };
+		CDF2BB992A7C47C20056A874 /* Bundle+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BB982A7C47C20056A874 /* Bundle+Info.swift */; };
+		CDF2BB9E2A7C4B270056A874 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BB9D2A7C4B270056A874 /* EntryView.swift */; };
+		CDF2BBA02A7C56330056A874 /* NotificationsMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BB9F2A7C56330056A874 /* NotificationsMgr.swift */; };
+		CDF2BBA22A7C62B60056A874 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BBA12A7C62B60056A874 /* ReminderListView.swift */; };
+		CDF2BBA42A7C62CB0056A874 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BBA32A7C62CB0056A874 /* AddReminderView.swift */; };
+		CDF2BBAF2A7C8E040056A874 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BBAE2A7C8E040056A874 /* Entry.swift */; };
+		CDF2BBF62A7D32000056A874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF2BBF52A7D32000056A874 /* LaunchScreen.storyboard */; };
+		CDF2BBF82A7D3AAC0056A874 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BBF72A7D3AAC0056A874 /* Medication.swift */; };
+		CDF2BBFA2A7D3BBA0056A874 /* MedicationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BBF92A7D3BBA0056A874 /* MedicationInfo.swift */; };
+		CDF2BBFC2A7D40500056A874 /* MedicationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BBFB2A7D40500056A874 /* MedicationHelper.swift */; };
+		CDF2BC002A7D53290056A874 /* MedicationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BBFF2A7D53290056A874 /* MedicationListView.swift */; };
+		CDF2BC022A7D53490056A874 /* MedicationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BC012A7D53490056A874 /* MedicationInfoView.swift */; };
+		CDF2BC042A7D57BD0056A874 /* TabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BC032A7D57BD0056A874 /* TabType.swift */; };
+		CDF2BC062A7D583B0056A874 /* EntryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BC052A7D583B0056A874 /* EntryListView.swift */; };
+		CDF2BC082A7D68A50056A874 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2BC072A7D68A50056A874 /* Reminder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD0FA0E72A7B295900023C1C /* HealthTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0FA0EA2A7B295900023C1C /* HealthTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTrackerApp.swift; sourceTree = "<group>"; };
+		CD0FA0EC2A7B295900023C1C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CD0FA0F12A7B295900023C1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD0FA0F32A7B295A00023C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD0FA0F52A7B295A00023C1C /* HealthTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthTracker.entitlements; sourceTree = "<group>"; };
+		CD0FA0F72A7B295A00023C1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD0FA1012A7C056500023C1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CD0FA1032A7C057A00023C1C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CD0FA1042A7C0D3C00023C1C /* AddEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryView.swift; sourceTree = "<group>"; };
+		CD0FA1062A7C0D4A00023C1C /* AddMedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationView.swift; sourceTree = "<group>"; };
+		CD0FA10B2A7C394400023C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CD9CAD462A842A2D0063BF71 /* MedicationsMgr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsMgr.swift; sourceTree = "<group>"; };
+		CDF2BB932A7C3FB30056A874 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CDF2BB952A7C472A0056A874 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		CDF2BB982A7C47C20056A874 /* Bundle+Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Info.swift"; sourceTree = "<group>"; };
+		CDF2BB9D2A7C4B270056A874 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		CDF2BB9F2A7C56330056A874 /* NotificationsMgr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsMgr.swift; sourceTree = "<group>"; };
+		CDF2BBA12A7C62B60056A874 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
+		CDF2BBA32A7C62CB0056A874 /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		CDF2BBAE2A7C8E040056A874 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		CDF2BBF52A7D32000056A874 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDF2BBF72A7D3AAC0056A874 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		CDF2BBF92A7D3BBA0056A874 /* MedicationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationInfo.swift; sourceTree = "<group>"; };
+		CDF2BBFB2A7D40500056A874 /* MedicationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationHelper.swift; sourceTree = "<group>"; };
+		CDF2BBFF2A7D53290056A874 /* MedicationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationListView.swift; sourceTree = "<group>"; };
+		CDF2BC012A7D53490056A874 /* MedicationInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationInfoView.swift; sourceTree = "<group>"; };
+		CDF2BC032A7D57BD0056A874 /* TabType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabType.swift; sourceTree = "<group>"; };
+		CDF2BC052A7D583B0056A874 /* EntryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListView.swift; sourceTree = "<group>"; };
+		CDF2BC072A7D68A50056A874 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0FA0E42A7B295900023C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD0FA0DE2A7B295900023C1C = {
+			isa = PBXGroup;
+			children = (
+				CDF2BBF52A7D32000056A874 /* LaunchScreen.storyboard */,
+				CD0FA0E92A7B295900023C1C /* HealthTracker */,
+				CD0FA0E82A7B295900023C1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0FA0E82A7B295900023C1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0FA0E72A7B295900023C1C /* HealthTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0FA0E92A7B295900023C1C /* HealthTracker */ = {
+			isa = PBXGroup;
+			children = (
+				CD0FA0EA2A7B295900023C1C /* HealthTrackerApp.swift */,
+				CD0FA0F12A7B295900023C1C /* ContentView.swift */,
+				CDF2BB9F2A7C56330056A874 /* NotificationsMgr.swift */,
+				CDF2BC032A7D57BD0056A874 /* TabType.swift */,
+				CD0FA0EC2A7B295900023C1C /* Persistence.swift */,
+				CDF2BBA52A7C8ABC0056A874 /* Journal */,
+				CDF2BBA62A7C8ADD0056A874 /* Medication */,
+				CDF2BBA72A7C8B0D0056A874 /* Reminder */,
+				CDF2BBA82A7C8B3A0056A874 /* Settings */,
+				CDF2BBA92A7C8B550056A874 /* Info */,
+				CDF2BB972A7C479E0056A874 /* Extentions */,
+				CD0FA0F32A7B295A00023C1C /* Assets.xcassets */,
+				CD0FA0F52A7B295A00023C1C /* HealthTracker.entitlements */,
+				CD0FA10B2A7C394400023C1C /* Info.plist */,
+				CD0FA0F62A7B295A00023C1C /* Preview Content */,
+				CD0FA1022A7C056500023C1C /* Localizable.strings */,
+			);
+			path = HealthTracker;
+			sourceTree = "<group>";
+		};
+		CD0FA0F62A7B295A00023C1C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD0FA0F72A7B295A00023C1C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDF2BB972A7C479E0056A874 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2BB982A7C47C20056A874 /* Bundle+Info.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		CDF2BBA52A7C8ABC0056A874 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				CD0FA1042A7C0D3C00023C1C /* AddEntryView.swift */,
+				CDF2BC052A7D583B0056A874 /* EntryListView.swift */,
+				CDF2BB9D2A7C4B270056A874 /* EntryView.swift */,
+				CDF2BBAE2A7C8E040056A874 /* Entry.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		CDF2BBA62A7C8ADD0056A874 /* Medication */ = {
+			isa = PBXGroup;
+			children = (
+				CD0FA1062A7C0D4A00023C1C /* AddMedicationView.swift */,
+				CDF2BBF72A7D3AAC0056A874 /* Medication.swift */,
+				CDF2BBF92A7D3BBA0056A874 /* MedicationInfo.swift */,
+				CDF2BBFB2A7D40500056A874 /* MedicationHelper.swift */,
+				CDF2BBFF2A7D53290056A874 /* MedicationListView.swift */,
+				CDF2BC012A7D53490056A874 /* MedicationInfoView.swift */,
+				CD9CAD462A842A2D0063BF71 /* MedicationsMgr.swift */,
+			);
+			path = Medication;
+			sourceTree = "<group>";
+		};
+		CDF2BBA72A7C8B0D0056A874 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2BBA32A7C62CB0056A874 /* AddReminderView.swift */,
+				CDF2BBA12A7C62B60056A874 /* ReminderListView.swift */,
+				CDF2BC072A7D68A50056A874 /* Reminder.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		CDF2BBA82A7C8B3A0056A874 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2BB932A7C3FB30056A874 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CDF2BBA92A7C8B550056A874 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				CDF2BB952A7C472A0056A874 /* InfoView.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD0FA0E62A7B295900023C1C /* HealthTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0FA0FB2A7B295A00023C1C /* Build configuration list for PBXNativeTarget "HealthTracker" */;
+			buildPhases = (
+				CD0FA0E32A7B295900023C1C /* Sources */,
+				CD0FA0E42A7B295900023C1C /* Frameworks */,
+				CD0FA0E52A7B295900023C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthTracker;
+			productName = HealthTracker;
+			productReference = CD0FA0E72A7B295900023C1C /* HealthTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0FA0DF2A7B295900023C1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CD0FA0E62A7B295900023C1C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CD0FA0E22A7B295900023C1C /* Build configuration list for PBXProject "HealthTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = CD0FA0DE2A7B295900023C1C;
+			productRefGroup = CD0FA0E82A7B295900023C1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0FA0E62A7B295900023C1C /* HealthTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD0FA0E52A7B295900023C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0FA0F82A7B295A00023C1C /* Preview Assets.xcassets in Resources */,
+				CDF2BBF62A7D32000056A874 /* LaunchScreen.storyboard in Resources */,
+				CD0FA1002A7C056500023C1C /* Localizable.strings in Resources */,
+				CD0FA0F42A7B295A00023C1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0FA0E32A7B295900023C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF2BBAF2A7C8E040056A874 /* Entry.swift in Sources */,
+				CDF2BC002A7D53290056A874 /* MedicationListView.swift in Sources */,
+				CDF2BB962A7C472A0056A874 /* InfoView.swift in Sources */,
+				CDF2BB942A7C3FB30056A874 /* SettingsView.swift in Sources */,
+				CD0FA0EB2A7B295900023C1C /* HealthTrackerApp.swift in Sources */,
+				CD0FA1052A7C0D3C00023C1C /* AddEntryView.swift in Sources */,
+				CDF2BBA02A7C56330056A874 /* NotificationsMgr.swift in Sources */,
+				CD9CAD472A842A2D0063BF71 /* MedicationsMgr.swift in Sources */,
+				CDF2BC022A7D53490056A874 /* MedicationInfoView.swift in Sources */,
+				CDF2BC082A7D68A50056A874 /* Reminder.swift in Sources */,
+				CDF2BBA22A7C62B60056A874 /* ReminderListView.swift in Sources */,
+				CDF2BBF82A7D3AAC0056A874 /* Medication.swift in Sources */,
+				CDF2BB9E2A7C4B270056A874 /* EntryView.swift in Sources */,
+				CD0FA0ED2A7B295900023C1C /* Persistence.swift in Sources */,
+				CD0FA0F22A7B295900023C1C /* ContentView.swift in Sources */,
+				CDF2BBFA2A7D3BBA0056A874 /* MedicationInfo.swift in Sources */,
+				CDF2BC062A7D583B0056A874 /* EntryListView.swift in Sources */,
+				CDF2BB992A7C47C20056A874 /* Bundle+Info.swift in Sources */,
+				CDF2BBA42A7C62CB0056A874 /* AddReminderView.swift in Sources */,
+				CDF2BC042A7D57BD0056A874 /* TabType.swift in Sources */,
+				CDF2BBFC2A7D40500056A874 /* MedicationHelper.swift in Sources */,
+				CD0FA1072A7C0D4A00023C1C /* AddMedicationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD0FA1022A7C056500023C1C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0FA1012A7C056500023C1C /* en */,
+				CD0FA1032A7C057A00023C1C /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD0FA0F92A7B295A00023C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD0FA0FA2A7B295A00023C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CD0FA0FC2A7B295A00023C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthTracker/HealthTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = BY7W75UUV6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthTracker/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 MOR Inc., all rights reserved.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrobin45.HealthTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD0FA0FD2A7B295A00023C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthTracker/HealthTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = BY7W75UUV6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthTracker/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 MOR Inc., all rights reserved.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrobin45.HealthTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0FA0E22A7B295900023C1C /* Build configuration list for PBXProject "HealthTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0FA0F92A7B295A00023C1C /* Debug */,
+				CD0FA0FA2A7B295A00023C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0FA0FB2A7B295A00023C1C /* Build configuration list for PBXNativeTarget "HealthTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0FA0FC2A7B295A00023C1C /* Debug */,
+				CD0FA0FD2A7B295A00023C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0FA0DF2A7B295900023C1C /* Project object */;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22F82" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="diet" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="exerciseIntensity" optional="YES" attributeType="String" minValueString="0" defaultValueString=""/>
+        <attribute name="exerciseLength" optional="YES" attributeType="Integer 64" minValueString="0" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="exerciseType" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medication_dosage" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medication_name" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationDosage" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="medicationInfo_dosageAndAdmin" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationInfo_dosageAndAdminTable" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationInfo_effectiveTime" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationInfo_indicationsAndUsage" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationInfo_lastUpdated" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationInfo_otherSafetyInfo" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationInfo_pregOrBreastFeeding" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationInfo_purpose" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationInfo_references" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationInfo_stopUse" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationInfo_warnings" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationName" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="medicationTaken" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="reminder_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="reminder_id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="reminder_notes" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="reminder_notify" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="reminder_reminder" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="reminder_title" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="symptoms" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="timestamp" attributeType="Date" defaultDateTimeInterval="712879080" usesScalarValueType="NO"/>
+    </entity>
+</model>

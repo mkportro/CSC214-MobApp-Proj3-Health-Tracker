@@ -1,0 +1,62 @@
+/* 
+  Localizable.strings
+  HealthTracker
+
+  Created by MaKayla Ortega Robinson on 8/3/23.
+  
+*/
+
+"Health Tracker" = "Suivi de la santé";
+"Add Entry" = "Ajouter une entrée";
+"Medication" = "Médicament";
+"Exercise" = "Exercer";
+"Type:" = "Tapez:";
+"Cardio" = "Cardio";
+"Weight Training" = "Musculation";
+"Yoga" = "Yoga";
+"None" = "Aucun";
+"Intensity" = "Intensité";
+"Intensity:" = "Intensité:";
+"High" = "Haut";
+"Medium" = "Moyen";
+"Low" = "Faible";
+"Length" = "Longueur";
+"minutes" = "minutes";
+"Time" = "Temps";
+"Time:" = "Temps:";
+"Diet" = "Régime";
+"Symptoms" = "Symptômes";
+"Notes" = "Remarques";
+"Save" = "Sauvegarder";
+"Add Medication" = "Ajouter des médicaments";
+"Name" = "Nom";
+"Dosage" = "Dosage";
+"Health Tracker Notification" = "Notification de suivi de la santé";
+"Journal" = "Journal";
+"Medications" = "Médicaments";
+"Reminders" = "Rappels";
+"Settings" = "Paramètres";
+"Missing Information" = "Information Manquante";
+"Do you want to proceed without filling out all fields?" = "Voulez-vous continuer sans remplir tous les champs";
+"Continue Without Saving" = "Continuer Sans Sauvegarder";
+"Go Back" = "Retourner";
+"Add Entry" = "Ajouter une entrée";
+"Journal Entries" = "Entrée de Journal";
+"Title" = "Titre";
+"Date" = "Date";
+"When:" = "Quand:";
+"Set Reminder:" = "Définir un Rappel:";
+"New Reminder" = "Nouveau rappel";
+"Scheduled Date:" = "Date prévue:";
+"Add Reminder" = "Ajouter un Rappel";
+"Reminders" = "Rappels";
+"Appearance" = "Apparence";
+"System" = "Système";
+"Light" = "Lumière";
+"Dark" = "Sombre";
+"Font" = "Police";
+"Large" = "Grand";
+"Bold" = "Gras";
+"In List" = "Dans Liste";
+"Info" = "Infos";
+"Changes applied!" = "Modifications appliquées!";

@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings
+  HealthTracker
+
+  Created by MaKayla Ortega Robinson on 8/3/23.
+  
+*/
+
+"Health Tracker" = "Health Tracker";
+"Add Entry" = "Add Entry";
+"Medication" = "Medication";
+"Exercise" = "Exercise";
+"Type:" = "Type:";
+"Cardio" = "Cardio";
+"Weight Training" = "Weight Training";
+"Yoga" = "Yoga";
+"None" = "None";
+"Intensity" = "Intensity";
+"Intensity:" = "Intensity:";
+"High" = "High";
+"Medium" = "Medium";
+"Low" = "Low";
+"Length" = "Length";
+"minutes" = "minutes";
+"Time" = "Time";
+"Time:" = "Time:";
+"Diet" = "Diet";
+"Symptoms" = "Symptoms";
+"Notes" = "Notes";
+"Save" = "Save";
+"Add Medication" = "Add Medication";
+"Name" = "Name";
+"Dosage" = "Dosage";
+"Health Tracker Notification" = "Health Tracker Notification";
+"Journal" = "Journal";
+"Medications" = "Medications";
+"Reminders" = "Reminders";
+"Settings" = "Settings";
+"Missing Information" = "Missing Information";
+"Do you want to proceed without filling out all fields?" = "Do you want to proceed without filling out all fields?";
+"Continue Without Saving" = "Continue Without Saving";
+"Go Back" = "Go Back";
+"Add Entry" = "Add Entry";
+"Journal Entries" = "Journal Entries";
+"Title" = "Title";
+"Date" = "Date";
+"When:" = "When:";
+"Set Reminder:" = "Set Reminder:";
+"New Reminder" = "New Reminder";
+"Scheduled Date:" = "Scheduled Date:";
+"Add Reminder" = "Add Reminder";
+"Reminders" = "Reminders";
+"Appearance" = "Appearance";
+"System" = "System";
+"Light" = "Light";
+"Dark" = "Dark";
+"Font" = "Font";
+"Large" = "Large";
+"Bold" = "Bold";
+"In List" = "In List";
+"Info" = "Info";
+"Changes applied!" = "Changes applied!";
+
